@@ -27,7 +27,7 @@ function btfys_plugin_woocommerce_check_notice() {
     ?>
     <div class="alert alert-danger notice is-dismissible">
         <p>Sorry, but this plugin requires WooCommerce in order to work.
-            So please ensure that WooCommerce is both installed and activated. Please <a href="http://localhost:10058/wp-admin/update.php?action=install-plugin&plugin=woocommerce&_wpnonce=9fa1191bdf">install and activate</a> 
+            So please ensure that WooCommerce is both installed and activated. Please <a href="<?php echo home_url().'/wp-admin/update.php?action=install-plugin&plugin=woocommerce&_wpnonce=9fa1191bdf'; ?>">install and activate</a> 
         </p>
     </div>
     <?php
