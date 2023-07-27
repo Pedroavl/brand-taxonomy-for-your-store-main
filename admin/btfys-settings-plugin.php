@@ -11,13 +11,13 @@ function btfys_custom_admin_plugin_link( $links ) {
     
     $urls = [
         [
-            'Github' => 'https://github.com/Pedroemanuelavelar/'
+            'Github' => 'https://github.com/Pedroavl/'
         ],
         [
             'Linkedin' => 'https://www.linkedin.com/in/pedro-emanuel-de-avelar-sousa-de-almeida-10a337160'
         ],
         [
-            'Contribua' => 'https://github.com/Pedroemanuelavelar/woo-taxonomy-brands'
+            'Contribua' => 'https://github.com/Pedroavl/brand-taxonomy-for-your-store'
         ],
         [
             'Email' => 'mailto:pedroemanuel5296@gmail.com'
